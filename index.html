@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <meta name="author" content="Jan Kowalski">
+    <meta name="keywords" content="slowa kluczowe strony">
+    <meta name="description" content="Krotki opis naszej strony">
+    <title>Wszystko o dronach.</title>
+    <script src="https://kit.fontawesome.com/7a9e74e8c9.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (min-width:576px)" href="css/small.css">
+    <link rel="stylesheet" media="screen and (min-width:768px)" href="css/medium.css">
+    <link rel="stylesheet" media="screen and (min-width:992px)" href="css/large.css">
+    
+</head>
+
+<body>
+    
+    <div w3-include-html="nav.html"></div>
+    <div w3-include-html="header.html"></div>
+
+    <main>
+        <div class="wrapper">
+            <div class="info">
+                <h2>Informacje i aktualnośći.</h2>
+
+                <a class="link-uav" href="pytania.html">
+                    <h4>Najczęściej zadawane pytania odnośnie przepisów</h4>
+                    <img class="img-uav" src="img/ulc-nowe-przepisy-uav.png" alt="Nowe przepisy uav">
+                </a>
+
+                <a class="link-expo" href="meeting.html">
+                    <h4>Poznań drone expo 18-20.11.2020</h4>
+                    <img class="img-expo" src="img/poznan-drone-expo-2020-cover01.jpg" alt="Poznań dron expo">
+                </a>
+            </div>
+            <div class="push"></div>
+        </div>
+    </main>
+
+    <div w3-include-html="footer.html"></div>
+
+    <script src="js/script.js"></script>
+    <script>
+        includeHTML();
+    </script>
+</body>
